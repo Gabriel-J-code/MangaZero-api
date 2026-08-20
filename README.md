@@ -28,7 +28,7 @@ A aplicação evolui seguindo a integração das seguintes tecnologias:
 ---
 
 ## 🗺️ Roadmap de Evolução
-- [x] **Fase 1:** Documentação
+- [x] **Fase 1:** [Documentação](https://docs.google.com/document/d/13SXX82LuXVu4r3rC-4H9vGxtesry345oRv08JfcVAi8/edit?usp=sharing).
    * [x] Escopo
    * [x] Requisitos
    * [ ] Histórias de Usuário  e Cenários BDD
@@ -44,7 +44,7 @@ A aplicação evolui seguindo a integração das seguintes tecnologias:
 - [ ] **Fase 7:** Deploy na **Google Cloud Platform (GCP)**.
 
 
-## 🚀 Como Rodar o Projeto Localmente
+## 🚀 Como Rodar o Projeto Localmente (Apenas quando o projeto passar da Fase 2)
 
 ### Pré-requisitos
 - **Java 17** ou superior
@@ -53,18 +53,15 @@ A aplicação evolui seguindo a integração das seguintes tecnologias:
 
 ### Passos para Execução
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/comic-reader-api.git](https://github.com/seu-usuario/comic-reader-api.git)
-   cd comic-reader-api
+1. **Clone o repositório**   
 
 2. **Suba os serviços externos (SQL Server, Redis, RabbitMQ) via Docker**:
 
 ```console
 Bash
 docker compose up -d
-Execute a aplicação Spring Boot:
 ```
+Execute a aplicação Spring Boot:
 ```console
 Bash
 ./mvnw spring-boot:run
@@ -74,5 +71,4 @@ Quando a aplicação estiver em execução, você pode visualizar e testar os en
 
 * **Swagger UI**: http://localhost:8080/swagger-ui.html
 * **OpenAPI Docs (JSON)**: http://localhost:8080/v3/api-docs
-## 📖 Documentação Adicional
-Para detalhes detalhados sobre diagramas de classe, modelos de banco e especificações arquiteturais, acesse a nossa [Wiki do Repositório](https://github.com/Gabriel-J-code/MangaZero-api/wiki).
+
