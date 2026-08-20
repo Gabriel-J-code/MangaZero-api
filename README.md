@@ -28,13 +28,20 @@ A aplicação evolui seguindo a integração das seguintes tecnologias:
 ---
 
 ## 🗺️ Roadmap de Evolução
-
-- [x] **Fase 1:** Mapeamento de Entidades (JPA/SQL Server) e Endpoints REST básicos.
-- [ ] **Fase 2:** Documentação da API com **Swagger / Springdoc OpenAPI**.
-- [ ] **Fase 3:** Conteinerização da API e BD via **Docker Compose**.
-- [ ] **Fase 4:** Implementação de mensageria assíncrona com **RabbitMQ**.
-- [ ] **Fase 5:** Camada de Caching com **Redis** para rotas de alta leitura.
-- [ ] **Fase 6:** Deploy na **Google Cloud Platform (GCP)**.
+- [x] **Fase 1:** Documentação
+   * [x] Escopo
+   * [x] Requisitos
+   * [ ] Histórias de Usuário  e Cenários BDD
+   * [ ] Arquitetura e Modelagem (UML, definição de frameworks, fluxos)
+   * [ ] Prototipação (Figma)
+   * [ ] Configuração do Workspace (Kanban)
+   * [ ] Preparação do Ambiente de Desenvolvimento
+- [ ] **Fase 2:** Mapeamento de Entidades (JPA/SQL Server) e Endpoints REST básicos.
+- [ ] **Fase 3:** Documentação da API com **Swagger / Springdoc OpenAPI**.
+- [ ] **Fase 4:** Conteinerização da API e BD via **Docker Compose**.
+- [ ] **Fase 5:** Implementação de mensageria assíncrona com **RabbitMQ**.
+- [ ] **Fase 6:** Camada de Caching com **Redis** para rotas de alta leitura.
+- [ ] **Fase 7:** Deploy na **Google Cloud Platform (GCP)**.
 
 
 ## 🚀 Como Rodar o Projeto Localmente
